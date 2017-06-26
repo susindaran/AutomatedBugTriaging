@@ -37,8 +37,8 @@ def main():
 	print "Preparing Tossing Graph... COMPLETED"
 
 	print "Running Classifier..."
-	clsfr = classifier.Classifier(tossing_graph, developers)
-	clsfr.run()
+	clf = classifier.Classifier(tossing_graph, developers, preprocessor)
+	clf.run()
 	print "Classifier run completed!"
 
 

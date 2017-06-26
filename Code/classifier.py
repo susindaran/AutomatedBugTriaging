@@ -37,9 +37,10 @@ def confusion_matrix(conf_arr, file_name):
 
 
 class Classifier:
-	def __init__(self, tossing_graph, developers):
+	def __init__(self, tossing_graph, developers, preprocessor):
 		self.tossing_graph = tossing_graph
 		self.developers = developers
+		self.preprocessor = preprocessor
 
 	def run(self):
 		data = joblib.load('OutputFiles/data.pkl')
@@ -99,7 +100,7 @@ class Classifier:
 
 		# Give input here
 		print ("Enter bug description : ")
-		examples = [raw_input()]
+		examples = [self.preprocessor.stem_and_stop(raw_input())]
 		predictions = pipeline.predict(examples)
 		# predictions = svm_clf.predict(examples)
 		predictions.astype(int)

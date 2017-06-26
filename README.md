@@ -6,7 +6,7 @@ A Machine Learning Approach to automatically suggest potential developers for fi
 
 ## Usage
 
-Clone the repository and navigate to _***AutomatedBugTriaging/Code/***_ folder
+Clone the repository and navigate to _***AutomatedBugTriaging/Code***_ folder
 
 ```sh
 $ git clone https://github.com/susindaran/AutomatedBugTriaging.git

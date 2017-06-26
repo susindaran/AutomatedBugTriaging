@@ -85,7 +85,7 @@ class Classifier:
 			score = pipeline.score(test_text, test_y)
 			scores.append(score)
 		avg_score = sum(scores) / len(scores)
-		print "The accuracy for Kfold MultinomialNB Classifier is : ", max(avg_score)
+		print "The accuracy for Kfold MultinomialNB Classifier is : ", (avg_score)
 
 		# Linear SVM Classifier
 		# svm_clf = Pipeline([

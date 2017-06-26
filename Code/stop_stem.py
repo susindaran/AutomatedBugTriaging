@@ -9,7 +9,7 @@ def stem_and_remove_stopwords():
 		stemmer = PorterStemmer()
 
 		input_file = open('OutputFiles/formatted_input')
-		output_file = open('OutputFiles/stemmed_input.txt', 'w')
+		output_file = open('OutputFiles/stemmed_input', 'w')
 
 		final_lines = []
 

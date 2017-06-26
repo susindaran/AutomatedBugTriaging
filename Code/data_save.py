@@ -4,7 +4,7 @@ import numpy
 
 
 def save():
-	f = open('OutputFiles/stemmed_input.txt')
+	f = open('OutputFiles/stemmed_input')
 	pairs = []
 	developers = set()
 

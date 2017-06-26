@@ -14,8 +14,6 @@ class TossingGraph:
 			for part in parts:
 				devs.add(part)
 		self.developers = list(devs)
-		print self.developers
-		print len(self.developers)
 		file1.close()
 
 		self.graph = [[0] * len(self.developers) for i in range(len(self.developers))]

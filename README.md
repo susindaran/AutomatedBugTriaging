@@ -1,5 +1,5 @@
 # Automated Bug Triaging to Developer
-A Machine Learning Approach to automatically suggest potential developers for fixing a bug, based upon predicting the most probable software component in which the bug may reside in, using the extracted keywords from the bug description. The approach was validated on Eclipse Bugzilla, achieving up to 75% prediction accuracy in bug assignment, thus significantly reducing re-assignment of bugs. More details con be found in the [Report](https://github.com/susindaran/AutomatedBugTriaging/raw/master/Report/AutomaticBugTriaging.pdf)
+A Machine Learning Approach to automatically suggest potential developers for fixing a bug, based upon predicting the most probable software component in which the bug may reside in, using the extracted keywords from the bug description. The approach was validated on Eclipse Bugzilla, achieving up to 75% prediction accuracy in bug assignment, thus significantly reducing re-assignment of bugs. More details can be found in the [report](https://github.com/susindaran/AutomatedBugTriaging/raw/master/Report/AutomaticBugTriaging.pdf)
 
 
 

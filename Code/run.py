@@ -19,7 +19,8 @@ def main():
 	print "Formatting input... COMPLETED"
 
 	print "Stemming and stop-word removal... STARTED"
-	stop_stem.stem_and_remove_stopwords()
+	preprocessor = stop_stem.Preprocessor()
+	preprocessor.process_file()
 	print "Stemming and stop-word removal... COMPLETED"
 
 	print "Saving Data... STARTED"

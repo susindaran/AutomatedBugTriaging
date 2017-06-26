@@ -11,7 +11,7 @@ def main():
 
 	print "Checking for output directory `OutputFiles`"
 	if not os.path.exists('./OutputFiles'):
-		print "Creating output directory `OutputFiles..."
+		print "Creating output directory `OutputFiles` ..."
 		os.makedirs('./OutputFiles')
 
 	print "Formatting input... STARTED"
